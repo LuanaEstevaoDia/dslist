@@ -12,11 +12,13 @@ import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
 
 @Entity
 @Table(name = "tb_game")
 @Data
+@EqualsAndHashCode(of = {"id"})
 @NoArgsConstructor
 @AllArgsConstructor
 public class Game {
