@@ -31,7 +31,7 @@ public class Game {
 	private String title;
 	
 	@Column(name= "game_year")
-	private Integer year;
+	private Integer gameYear;
 	private String genre;
 	private String platforms;
 	private Double score;
