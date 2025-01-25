@@ -1,0 +1,1 @@
+Adicionar arquivo temporário para criar a pasta assets
