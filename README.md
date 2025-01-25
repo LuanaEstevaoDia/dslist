@@ -11,7 +11,7 @@ Este projeto foi desenvolvido como parte do curso intensivão Java Spring 19, of
 ## Descrição do Projeto
 Este projeto é uma API para gerenciar uma coleção de jogos, permitindo o acesso a todos os jogos disponíveis na coleção, a obtenção de um jogo específico por ID e a alteração da posição do jogo dentro da lista de jogos.
 
-## Diagrama UML
+## Diagrama de classe UML
 
 
 ![Diagrama UML](./assets/GameCollectionUML.png)
@@ -48,7 +48,7 @@ Utilizamos o banco de dados H2. As requisições foram feitas utilizando o Postm
 
 ### Homologação
 
-Banco de dados Postgres utilizando Docker Compose, PostgreSQL e PgAdmin. E as Requisições foram
+Banco de dados Postgres utilizando Docker Compose, PostgreSQL e PgAdmin. As requisições também foram feitas pelo Postman para assegurar que tudo estivesse funcionando corretamente.
 
 
 ![PgAdmin](./assets/TableGamePgAdmin.png)
